@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    </head>
+
+    <body>
+  
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <image src="https://upload.wikimedia.org/wikipedia/commons/8/82/SD_Logo_Gold.jpg" width=50px height=50px></image>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="/Assignments/Assignment 3(Responsive Website)/homepage.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/Assignments/Assignment 3(Responsive Website)/product_page.html">Product</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Services
+
+        </a>
+      
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="/Assignments/Assignment 3(Responsive Website)/service_page1.html">Service 1</a>
+          <a class="dropdown-item" href="/Assignments/Assignment 3(Responsive Website)/service_page2.html">Service 2</a>
+          <div class="dropdown-divider"></div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/Assignments/Assignment 3(Responsive Website)/contactus.html">Contact Us</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+    </nav>
+
+<!---jumbotron--->
+
+
+<div class="jumbotron jumbotron-fluid text-primary">
+  <div class="container">
+      <h1 class="display-5">Sabka Dookan</h1>
+      <p class="lead">We serve more than 200 cities and town across the country.</p>
+  </div>
+</div>
+<div class="container my-4">
+  <div class="row featurette d-flex justify-content-center">
+      <div class="col-md-7">
+          <h2 class="featurette-heading">Quality Products</h2>
+          <p class="lead">Each Product undergoes quality and our team makes sure that every product is in good working condition </p>
+      </div>
+      <div class="col-md-5">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="https://thumbs.dreamstime.com/b/quality-control-check-box-guarantee-assurance-standards-iso-business-technology-concept-quality-control-check-box-guarantee-137735081.jpg" style="height: 200px; width: 400px;"
+              alt="">
+      </div>
+  </div>
+  <hr class="featurette-divider">
+  <div class="row featurette d-flex justify-content-center">
+      <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">Customer Support</h2>
+          <p class="lead">We have 27 X 7 Customer Support Service. We believe in retaining our customers.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="https://s3-ap-south-1.amazonaws.com/trt-blog-ghost/2020/04/Service-Help-Desk.png" style="height: 200px; width: 400px;"
+              alt="">
+      </div>
+  </div>
+  <hr class="featurette-divider">
+  <div class="row featurette d-flex justify-content-center">
+      <div class="col-md-7">
+          <h2 class="featurette-heading">Verified Sellers</h2>
+          <p class="lead">We make sure that the sellers are verified and they have license for trading. This is just to make sure that our customers get genuine products.</p>
+      </div>
+      <div class="col-md-5">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYUAAACBCAMAAAAYG1bYAAAA1VBMVEX///9Gt0nu7u46tD09tEDX7diNz47Q6dCh1qXd5t30+vU1sjlEt0fq9upCtkUzsja+477v+O/z8PPH5sdjwGX29vas26zb8Nv09PS73ryo2anm8+YssDC64bvh8uFzxXTH5cjo6+ib1Jzb5ty32bhZvVyCy4O/3MDI38lrw22y3rN3x3kYrB5fvmFPuVKT0pTC1spuunrb4eDG4c2Xz558xYX6/vtovXSazaJuxG/Q4dF+yX+e1p/Q7NGXyKGxz7tctmam0a/F1su0z71/vYyIwJR4v4XUqxMfAAAPZUlEQVR4nO1dDXuaOhsWEqWFSARq1YoWrdbWTtt9HPuum6fbOdv5/z/p5XkSEPxAQWzXyn1dmyIhhNx5PhPSUqlAgQIFChQoUKBAgQIFChQocFDM9G6j22h09dduyPGi7TjOvI3QWk7BxCtgpjnl2HF13tJmr9WaI4XmrBn6uqO9fEuOF3qruuFEbcOJArmj7AXfup3+o4/7cTv4RSvE4WUw6opP/WRoGISaJiWGMfxiiV/brddr2RFhJJRO/YtBmBKCEbcvTIVee83WHQluhPL5PDUiHCCI8hlPVQuldDjM8N+V8E/H7jIHIA/uFzzZ7ZYKn/UAmHVrngZBWkto/T5f5QDA7/G0U9M8p+V5tXIRyuWEWVuree3YT1/c9ST4NPRjBatarWy9ZGPfK8qruYnRBkkAuMsuklV2vBdq6ruF3lkdyjpZYxNCGO01lRSKaR9YnfCr3i6XG0jJXzSBBIXe4YWNcrm96PsitbEHvKDzbipT7gLo1/HnBH2EOulz55JgYT6teHVRgd7ZeJMCyQi00XjIqVRCzDRIMgm+NBhmUJry6VjUMStC6mwYiI/PCk+yA1vADNPDagoasqA+EpLQ34cD5MGtYEUFDRnwJHJ2P7ZYgV1gnKF16DZe9YHeInoeftxutQK7gE6wMq9wWNPBFkbhMRcSFIVcYnWFTkqF5ikm7cY5qCMBjnm+bvd1H+uNwcZRe7WSvM4O9wlqLIQhBZpXOGgfE4PkdDC/Qo1Fam931O0RzA90N2ZOs4DjFFAhDDujKRRScr4oLegj1Om87pO9Jahom3tmflYB4Pb8Shtd/d1gdtAJxbp6A+o7aRYhCzg4vzPt/WDuebBE9EBBUFMEC19yihUC0L8O09zXhd7Vak7jAFKhCrPww8zc4WtVGZvk39Q/BFXHK28vlQ6ShWlGs8CIQYmxSiGb1vNu6R+Eas3LVyDUHkzuNI1sJJDpuGtVnbsVq8KULyfvCRdjR6tG4h/dcfLkQbDQy2acjYpsSm012iDvDIZBzMn1OFwgrXv5TezWBQtqJhbobVhPLaMwvSkwRok77QdWoVrLKzkgWWhmcZEYi7TiMrt5f1tghE/kxG5ua9brqo0R7jRDJ7rRNjg5Bxx/MhhXxkIVt/NJD/gs4IKJx/Qs8JNoRdVc81B/OpgxnONj57PcpG6foqf6v9QqSSxFOlIWYIL9m4ijW3n4SqcefjylZYHR+N3zzcm+BZApzgjMcniDQ5JQ+pw2auNLs/v9XHOybwJMLtPdWyn1JAl/pV0Bw8/jFVks35zsmwDj6CxZ3n4kqILMrpJWHy0ZhVJpcnyiAHCRhvJeM+xy7cUVTesgMWXJJFWOIWhbB+7B4+9jGupPuO69m349Hl8iP7/lG28NjEPkqu8RNohsqr4+NZ0EdxyvKAOP7wYmZnG0zLkMe4QO79fUGp1cxyvaiUfGIvYbD1gEirL4Fiu/Wmjtj2y9c8BM04zUt1LR4txSSxd1JtQuICx01oUO9Z4HH4PUysScLhmFXXjETg96xNxMAuWcBl2hMCVeTP4Y7ajwK+F8ybr5Pw0v7yaGsULcoqKgbZFxtHRLecT5puVajEB3ZF0Pqj5BkraeWh8xY8kobHoFNAYKS7nPRD+Z4GDdRbNQs6kReL56uQLvcHFf0zqGYkQUbtvgZd8EEcWNhCoWNaRptJyvsY5i9BzVxKyj+Lc1otNjBvHvpoUOBbHCpsmGBrgnZ0ELu+fKhsFmQCZHz5bXqwur8DO1c8OXgpTd0niM+EW/C4cY+k13ebTdCxZ8NChbz4Lrd+X5CguL9jiRd/CYGb5yZw1NxYjeDVmY78BCP2TBx2yDzLMhnM2mktSeBx/DtKJAKvF62jtaZujWrnhwcCvGBrDQ7dQQHWTBgiPoO8+IshAUOqcRFsryx7EJLLQ74sLuQhoMyLZ1rq/PfVVR5chCQ15To0ssVJdY0GVB544CC/AVSJxtMA/orWqZVJL6BPJaTmsVzGG8mtmuKXHzW0nObqNXcWYCCxcfDAEG/VL2jzj6XxMWYeHExSLc7/4FC/euvFIBFmof/AvBZxgHXYsD9NqllA99tX1NgYWT4G7KFhaqH7i4pcmABd8mcBe06Pf1wS2KTztL5CYXwKRNpTKydLNvu1bAqCUfA7rNlwpg4Ty8GlmAIcEM6DUzwsJFWCjCwiJthSzAlbxSWqxiANtjYT+7DswEGit3S2IhLGgCCygCUI23Xn2zKQxHLzsLt8kjmVHD5dEXnt2lKPFid1mC3mq4QKRPxwnZxAJGhBWagQWFtxfDFQVuAgrKvK1ULk1g4WIfFohvg8sbjChGblniZ7kAJtlDMsl1rez0F1kmch+vZZ5CoeED+UMV13P790WNJPQKicoCQQ0SZYGbCGWNRiJRFgxfmc1lgh1FT7+GRTompcI6n8TulsSCVHdMNFoJZGHT5Dq0K5N5lksvEvUJPRNuxuxePpq5tNTLSrW41a2C64d9BTKB1lmaWCJY+MA5dztgbKJ2oXN7CfDFNmqdpcUmERbofWSaQ74PP77j+IxG5G50Gwu6NM5DZgq74DcLzFplg6/KgQEvPQl1uUY4aSybwzA6O0dHiBlL++RNUmUBQaZ9Jx0quaeChYBNF/vFqtVaDtzCVyurnqrGlVVPtcuXWKiGT0TuhNdS7UM4F/FUra3WOcCZiSzUWrVaWdxsPdBZzrBOTLJwmsRC1BA7XEZSUaRMpKLbMgV5moGMAwu6hfAfjyzihdmJuy5qK8dYkFdqm1lQKOmLJ+j6etBY3K1BtrIgCupnQhYk5hslPysLze2yIN7HCfuAmkZ8H55SJ62XC9NzFfBEPXRpwDoLle+bvwgLFVAqERZq364BlzGN1DeCKxcskH584pURY3ICsiXjhYvY3ZLsQlh5hIX5h43qN6tGaqo9ZCFhNJOL2BXWdMkopJ9oBtuuffAf+Y4GLBhBHklaZyOI7WLWmQLi1rlPgisj1rkmCcabYV4JNvgDYjFeuIjdLZGFoKC0zhRikbON+heTMRmsc1NVR/5HPSFZaCylr624UdDTry9miq9u/MfShV+56qm6DINCMIJbPdXwx5AFdIEDD5aMnfkddtsiXsjuqTK3m+QQZvVU69JT3cyvQr4n1nCbYYqTz333yFdl+Pzr4wXIUlnuDiysxAvMPZcWB4s2ApUJNTr7Rm0mvML9dUNnwejKFLX5LGx7ecS8Targe5bZNfpNEIhPIzIYXIAFLDBIm/fJVhbu3eBKkcHgnILshjkGHENfXUK5okMVIoMhr0EWPHlkIAtDWR+VGQx5xIKoDdK5jQ06GPVVlgyGzwK+2fmU0Jl8vvl6J9PqI2aC89iWOT2/X9raXACzeRi1waSJrrBtLHQ9vE5zUBaqntaIN0ukWuYn/Q48pu9kw93ENfMyZvMsWUOHAAtleeraqMC4lkcVErCAY/J6vfyj75gpm6eqV9DuZoJ2Z8rGiqsZpzhxLkD2aiyzPQQWGqjdWQkzrpIFL6pI1mS2Z4qxUMgnkQkGxhalvtH4/AKJeGSlNieR6co+j+aMT4xF7Aw0rt29TvRTpplnVRqG3wnRs6ls2M1850TqSo2XVtWSxBs1qxpiSL5bVZEsg2+WaXQsC0Jq/+N7OAK5Y1knfrTsLC7s+toF62l732nM42PutabPSrN2BzIwxFnczaJwjwBzgzYWp+75daTgPZn4/4vpvaFV1a/XPTc4yCXdy8JCU7VvgMJe0uaEJl2v7HZOpK7WaBjheKXGAgyOyOJ3/J8q4UfwwOKILC4kLKiHrzwJ5Ww4nMobkuW7hTXEzpnYxMURCxts4vEauNCP2aYX6qqI20p/J5lZttY2pEikvjKS5+3zAU54Zp39D1SSPUzSLoyvusHamyHhJYBOXamxuqPpTvDjtlO0j6eJG6aurD0qWcnljw0uKu3MC2FU6ayWnpO9Tr4UvSUEekcIMUi9zIvCfGHoefjtOdnvjPlupUrOmwS8bYgh2n3KSgJahhvB4b9GYjrCiCzQ7hzdyyJJcMXc4yA7CSAM9kDQ8Cl5AwbyNfDD5se6NnsdGBdp585e2xyoQIPoXzt5AppOa5h7uM9xV7c3DyqnoFrqPiSAgVZtsUP8th0YmEGnUyVZcR0XGD8TmYVWby8SBA3qACrbvgPDSwRAbweMUOnBd/YlQdAg3v0vIrEU8Dm4l3+ia7CfOgppQBbqOW/Y9o7BTK70ZXzQGNi5bEDUlImM1KuGjxLMpIZ5GezJo3eu7Dw4WOzAkO8WkgrkY98ZCMy9Xd7Pw+RpeaTmREI46Zb+PYYtJNxW3hfuT2pa9C9HaYNTu5kTCRA04JueVzknJtyr3Fr4B0Kf58oBhm4efKZb7bgNTMlLWP886OXWqGerue4LGJjnn7n6qvxnnm38c2A1vMHNqZ0zB2gYcOrTztNXZQq60eV3Ba3V8hlQfQry5kAEbh58ec5RGIQolJ9O3w2uTk97NhCgqs1D7FGqygVidn5b/5sTtAoDbPS7wkEYADRl+FxSU29KsgGMfoL6tN5r91meaDbrB92nN5z6/CefvDXjD1hv8dcX0sAXBlW8uf1AcpAGk/yLlbWKv1GVCmqwHKP0z6ZdBnYHpUIStNPXfKQ3CJj6fBKrOtXH5T09UgoCf0SbsNeE+JEiQoP9PHXpwjyYW2UjYtKZ6U6fRcxsjV7zed4oVKBBrmq2Hz4qBiGUEmKQycctNJCPExKUVh7/lXmLakFCFiANXnj08Pevjx9//X7+ZNvJy7OZYtufnn//55f++yFM9Gqj9/zHFw4IoKG37m/FPySG1Px59Qq9dfp+U3kHBkQm9khbfWn3v4ScN3lcrUgbqXnmfI8MTRSHwcqSS/vHRtNAp8uDXtcGvXymYo8VTRSH3k3LCZeBo2T0phtoMJVPsQqqXuumZ+exKOGogQkT21afRoMWYCAWYH6arFVKZCpIaAWFn3r5J96PEk1VMiHQE7kg++Pqqm7mPopR7/WC0odIvB8p6s1IItE+FW9U2c9K/N0RRpSfwiaUr8LSh006Hh3qAs1IEKH+PeVETMcxk/Dpb6n+y09B6Vdr7XtHLJazH379UPwQmSqTXw+Bb+QV6aLDA5XSIkVtq598LNZC+fFZIQIvANT3o8b6k+VRYY1fBhjLXQ3KqzF1t3VVxGcvBRHLnQ682G4Mlje4KuKzF0RdRhBPo5ZXht0hNK3VulGL+OyFEfCg9npPPno9+F5k7F4csVAOA7TXbtGRoh4ycbCVUQUKFChQoECBAgWOFP8H/OuR1+iUDIYAAAAASUVORK5CYII="
+              alt="photo">
+      </div>
+  </div>
+
+
+    <!-- Footer -->
+    <footer class="page-footer font-small mdb-color pt-4 p-3 mb-2 bg-secondary text-white">
+  
+      <!-- Footer Links -->
+      <div class="container text-center text-md-left">
+    
+        <!-- Footer links -->
+        <div class="row text-center text-md-left mt-3 pb-3">
+    
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">SABKA DOOKAN</h6>
+            <p><i>Buy all products at one place.</i></p>
+          </div>
+          <!-- Grid column -->
+    
+          <hr class="w-100 clearfix d-md-none">
+    
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+            <p>
+              <a href="#!" style="color: white;">Home Appliance</a>
+            </p>
+            <p>
+              <a href="#!" style="color: white;">Grocery</a>
+            </p>
+            <p>
+              <a href="#!" style="color: white;">Electronics products</a>
+            </p>
+            <p>
+              <a href="#!" style="color: white;">Sports,fitness</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+    
+          <hr class="w-100 clearfix d-md-none">
+    
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+            <p >
+              <a href="#" style="color: white;">Your Account</a>
+            </p>
+            <p>
+              <a href="#!" style="color: white;">Become an Affiliate</a>
+            </p>
+            <p>
+              <a href="#!" style="color: white;">Shipping Rates</a>
+            </p>
+            <p>
+              <a href="#!" style="color: white;">Help</a>
+            </p>
+          </div>
+    
+          <!-- Grid column -->
+          <hr class="w-100 clearfix d-md-none">
+    
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">About Us</h6>
+            <p >
+              <a href="#" style="color: white;">Kolkata, W.B. India</a>
+            </p>
+            <p>
+              <a href="#!" style="color: white;">querry@sabkadookan.com</a>
+            </p>
+            <p>
+              <a href="#!" style="color: white;">+91-1234567890</a>
+            </p>
+            <p>
+              <a href="#!" style="color: white;">+91-09830596043</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+    
+        </div>
+        <!-- Footer links -->
+    
+        <hr>
+    
+        <!-- Grid row -->
+        <div class="row d-flex align-items-center">
+    
+          <!-- Grid column -->
+          <div class="col-md-7 col-lg-8">
+    
+            <!--Copyright-->
+            <p class="text-center text-md-left">© 2021 Copyright:
+              <a style="color: white;" href="https://mdbootstrap.com/">
+                <strong>sabkadookan.com</strong>
+              </a>
+            </p>
+    
+          </div>
+          <!-- Grid column -->
+    
+          <!-- Grid column -->
+          <div class="col-md-5 col-lg-4 ml-lg-0">
+    
+            <!-- Social buttons -->
+            <div class="text-center text-md-right">
+              <ul class="list-unstyled list-inline">
+                <li class="list-inline-item">
+                  <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                    <i class="fab fa-google-plus-g"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+    
+    
+      </body>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    
+      
+    
+    
+    
+    
+    
+    
+    
+    
+    </html> 
+  
+  
+  
+      
+  
+  
+  
+        
